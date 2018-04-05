@@ -1,0 +1,529 @@
+2018/04/04 15:04:50 [error] 24921#24921: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(R" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10"
+2018/04/04 15:05:46 [error] 24921#24921: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10"
+2018/04/04 15:42:54 [error] 24921#24921: *15 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:42:58 [error] 24921#24921: *15 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:42:59 [error] 24921#24921: *15 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:43:00 [error] 24921#24921: *15 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:43:00 [error] 24921#24921: *15 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:43:00 [error] 24921#24921: *15 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:43:00 [error] 24921#24921: *15 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:30 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:33 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:33 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:33 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:34 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:34 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:34 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:35 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:35 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:35 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:35 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:35 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:36 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:36 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:36 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:36 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:36 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:37 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:44:37 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:05 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:06 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:06 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:06 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:06 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:07 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:07 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:07 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:08 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:08 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:08 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:08 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:08 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:08 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:09 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:09 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:09 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:09 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:09 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:10 [error] 24921#24921: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:22 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:23 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:23 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:23 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:24 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:24 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:24 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:24 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:24 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:25 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:25 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:25 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:25 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:25 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:26 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:26 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:26 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:26 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:28 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:28 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:45:28 [error] 26251#26251: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:49:15 [error] 26251#26251: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:49:15 [error] 26251#26251: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:49:15 [error] 26251#26251: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:49:16 [error] 26251#26251: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:49:16 [error] 26251#26251: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/04 15:49:16 [error] 26251#26251: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/home/vagrant/blog_4/symfony-demo/var/logs/dev.log" could not be opened: failed to open stream: Permission denied in /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/vagrant/blog_4/symfony-demo/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /home/vagrant/blog_4/symfony-demo/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(550): Monolog\Logger->log(500, 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(U" while reading response header from upstream, client: 10.0.0.1, server: , request: "GET /en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.0-fpm.sock:", host: "10.0.0.10", referrer: "http://10.0.0.10/en/blog/"
+2018/04/05 12:46:02 [error] 2102#2102: *21 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 10.0.0.1, server: 10.0.0.11, request: "GET /en/blog/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php-fpm.sock:", host: "10.0.0.11", referrer: "http://10.0.0.11/"
+2018/04/05 12:59:07 [error] 1808#1808: *15 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 10.0.0.1, server: 10.0.0.11, request: "GET /en/blog/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php-fpm.sock", host: "10.0.0.11", referrer: "http://10.0.0.11/"
+2018/04/05 13:01:39 [error] 1797#1797: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 10.0.0.1, server: 10.0.0.11, request: "GET /en/blog/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php-fpm.sock", host: "10.0.0.11", referrer: "http://10.0.0.11/"
+2018/04/05 13:07:08 [error] 1797#1797: *12 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: 10.0.0.11, request: "GET /en/blog/ HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php-fpm.sock", host: "127.0.0.1"
