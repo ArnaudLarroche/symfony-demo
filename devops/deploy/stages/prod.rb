@@ -1,1 +1,1 @@
-server 'XXX.XXX.XXX.XXX', user: fetch(:ssh_user), roles: %w{app}
+server '62.4.19.65', user: fetch(:ssh_user), roles: %w{app}
